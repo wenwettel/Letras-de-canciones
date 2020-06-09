@@ -35,7 +35,7 @@ UI.formularioBuscar.addEventListener('submit', (e) => {
                 setTimeout (() => {
                     UI.divMensajes.innerHTML ='';
                     UI.divMensajes.classList.remove('error');
-                    UI.formularioBuscar.reset();
+                   
                 },4000);
                     
                 }
